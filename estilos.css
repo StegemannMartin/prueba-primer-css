@@ -1,0 +1,112 @@
+
+
+h2{
+	color: blue;
+}
+p{
+	color: red;
+}
+
+
+
+.titulo-h1 {
+	color: pink;
+}
+
+
+{
+	font-family: 'Lobster';
+	font-weight: 100;
+	font-size: 30px;
+}
+
+div {
+	width: 120px
+	height: 120px;
+	display: block;
+	
+}
+.caja1 {
+	background-color: orange
+}
+.caja2 {
+	background-color: green
+}
+.caja3 {
+	background-color: lightblue
+}
+.caja4 {
+	background-color: yellow
+}
+
+
+.contenedorpadre {
+	width: 300px;
+	height: 300px;
+	background: blue;
+	margin: 40px;
+}
+.hijo {
+	background: orange;
+	height: 120px;
+	width: 120px;
+	position: relative;
+    top: -20px;
+	left: -20px;
+
+}
+.contenedorpadre2 {
+	width: 300px;
+	height: 300px;
+	background: blue;
+	margin: 40px;
+}
+.hijo2 {
+	background: orange;
+	height: 120px;
+	width: 120px;
+	position: relative;
+    top: -20px;
+	left: -20px;
+	z-index: -1
+}
+
+
+div {
+	display: block;
+	background: green;
+	position: absolute;
+}
+div div {
+	height: 100px;
+	width: 100px;
+	background: yellow;
+}
+.contenedorcito {
+	position: relative;
+	border: 4px solid red;
+	margin: 50px auto;
+	height: 450px;
+	width: 450px;
+}
+
+.cajita1 {
+	
+}
+.cajita2 {
+	right: 0;
+}
+.cajita3 {
+right: 0;
+bottom: 0;
+}
+.cajita4 {
+	bottom: 0;
+}
+.cajita5{
+bottom: 0;
+right: 0;
+top: 0;
+left: 0;
+margin: auto;
+}
